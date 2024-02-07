@@ -95,7 +95,6 @@ public class RecursiveActionComparisonTest {
 		log.trace("Sequential threshold: " + threshold); 
 		log.trace("Elapsed time: " + (t2-t1) + " ms");
 		
-		pool.close();
 		
 		log.trace("The transformed sequence:"); 
 	    StringBuilder sb = new StringBuilder();

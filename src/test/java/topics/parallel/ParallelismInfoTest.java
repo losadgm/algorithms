@@ -21,7 +21,6 @@ public class ParallelismInfoTest {
 	   ForkJoinPool pool = new ForkJoinPool(7);
 	   log.debug("Level of parallelism: " + 
 	   pool.getParallelism());
-	   pool.close();
 	   log.debug("Available processors: " + 
 	   Runtime.getRuntime().availableProcessors()); 
 	}
